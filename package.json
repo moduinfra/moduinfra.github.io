@@ -1,0 +1,9 @@
+{
+  "name": "my-webhook-project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/webhook.js",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
