@@ -1,0 +1,19 @@
+on:
+  repository_dispatch:
+    types: [facebook-event] # Vercel에서 보낸 event_type과 일치해야 함
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Process Content
+        run: |
+          echo "Meta 데이터 수신 완료"
+          # client_payload에 담긴 데이터를 환경 변수나 파일로 넘겨서 사용
+          echo '${{ toJson(github.event.client_payload.data) }}' > payload.json
+          
+          # 기존에 게시를 위해 만드셨던 파이썬/스크립트 실행
+          python3 package.json
