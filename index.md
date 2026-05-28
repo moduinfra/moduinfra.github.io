@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# ![Logo](assets/images/bcXZnjdP_400x400.jpg) 모두인프라 (MODUinfra)
+# ![Logo](bcXZnjdP_400x400.jpg) 모두인프라 (MODUinfra)
 
 ---
 
@@ -11,7 +11,7 @@ title: Home
 
 모두인프라는 전자상거래, 온라인 마케팅, 그리고 **바이브코딩(Vibe Coding)**을 통한 혁신적인 수익 모델을 창출합니다.
 
-![Banner](assets/images/1500x500.jfif)
+![Banner](1500x500.jfif)
 
 ### 주요 사업 영역
 | 사업부문 | 주요내용 |
